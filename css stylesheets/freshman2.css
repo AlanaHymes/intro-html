@@ -1,0 +1,97 @@
+p {
+ color:#294f63;
+}
+h1 {
+ font-size: 50px;
+ text-align: center;
+ font-family:inherit;
+}
+li {
+ font-size: 15px;
+ line-height: 2;
+ letter-spacing: 1px;
+ display:inline;
+}
+p {
+ font-size: 18px;
+ line-height: 2;
+ letter-spacing: 1px;
+ font-family:inherit;
+}
+ul {
+ list-style-type: none;
+}
+html {
+ background: linear-gradient(to bottom,#b1cad7,#97bbcf,#3f7e9f,#294f63,#3f7e9f,#97bbcf,#b1cad7);
+}
+body {
+ width: 500px;
+ margin: 0 auto;
+ background-color:#ffffff;
+ padding: 0 20px 20px 20px;
+ border: 5px solid black;
+ border-radius: 5px;
+}
+h1 {
+ margin: 0;
+ padding: 20px 0;
+ color: #294f63;
+ text-shadow: 3px 3px 1px #7398ac;
+}
+img {
+ display: block;
+ margin: 0 auto;
+}
+div {
+  margin:10px;
+  width: 300px center;
+  height: 35px;
+  padding: 0 20px 20px 0px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow:  4px 6px 4px black;
+  text-align: center;
+  line-height: 0;
+  letter-spacing: 10px;
+}
+ div{
+  background: linear-gradient(to bottom, #294f63,#c4ddeb);
+}
+  .bigFont li{
+font-size:8px;
+}
+@media screen and (max-width: 400){
+   ul li {
+   font-size: .8em;
+   }
+}
+ .peach {
+    background: #eef1f2;
+    width: 700px center;
+    height: 900px;
+    text-align:center;
+   
+}
+ .red {
+    background: #eef1f2;
+    width: 700px center;
+    height: 900px;
+    text-align:center;
+}
+
+ .icon div:hover {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width .75;
+  transform: scale(2) rotate(360deg)
+}
+.social instagram {
+  transform: scale(2) rotate(360deg)
+}
+.social facebook{
+  transform: scale(2) rotate(360deg)
+}
+.social twitter {
+  transform: scale(2) rotate(360deg)
+}
